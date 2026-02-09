@@ -1,0 +1,37 @@
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f8;
+}
+
+.auth-card {
+  background: white;
+  padding: 30px;
+  width: 320px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.auth-card h2 {
+  margin-bottom: 5px;
+}
+
+.toggle {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.toggle span {
+  color: #4285f4;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.user-box img {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}

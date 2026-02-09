@@ -1,0 +1,57 @@
+.dash-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #93a7f1, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dash-card {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  border-radius: 15px;
+  animation: pop 0.5s ease;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.dash-card img {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.message {
+  margin: 15px 0;
+  font-weight: bold;
+  color: #444;
+}
+
+.actions button {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.actions button:hover {
+  opacity: 0.9;
+}
+
+.logout {
+  background: #e53935;
+  color: white;
+}
