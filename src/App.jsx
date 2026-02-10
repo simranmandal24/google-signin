@@ -3,7 +3,7 @@ import AuthCard from "./AuthCard";
 
 function App() {
   return (
-    <GoogleOAuthProvider clientId="477480793924-l3jvjn8vhhgnd79aad16n7p1nne9m5q7.apps.googleusercontent.com">
+    <GoogleOAuthProvider clientId="477480793924-8ga3fe4nnlk9u2ja3dvi9ov2n591cr6p.apps.googleusercontent.com">
       <AuthCard />
     </GoogleOAuthProvider>
   );
